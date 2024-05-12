@@ -1,0 +1,69 @@
+
+
+.hero-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    gap: 1rem;
+    display: flex;   
+    position: fixed;
+    align-items: center;
+    padding: 2%;
+    z-index: -1;
+    background-image: linear-gradient(
+  130deg,
+  hsl(235deg 73% 20%) 0%,
+  hsl(239deg 76% 17%) 10%,
+  hsl(245deg 79% 13%) 20%,
+  hsl(249deg 80% 10%) 30%,
+  hsl(253deg 82% 6%) 40%,
+  hsl(258deg 87% 3%) 50%,
+  hsl(282deg 76% 3%) 60%,
+  hsl(300deg 60% 4%) 70%,
+  hsl(318deg 45% 4%) 80%,
+  hsl(334deg 28% 5%) 90%,
+  hsl(0deg 14% 5%) 100%
+);
+
+}
+.hero-container div{
+    font-family: monospace; 
+    font-size: 40px;
+    padding: 1%;
+     
+}
+.drag-object {
+    border-radius: 60%;
+    
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
+
+  }
+
+ 
+.sections{
+    z-index: 0;
+    width: 100vw;
+    display: flex;
+    padding-top:40% ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+#text{
+    width: 80%;
+    height: 80%;
+    stroke-dasharray: 1346;
+    animation: 3s fill linear;
+}
+@keyframes fill {
+    0% {
+        stroke-dashoffset: 1346;
+    }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}

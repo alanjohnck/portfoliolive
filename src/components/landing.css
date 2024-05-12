@@ -1,0 +1,12 @@
+.landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    z-index: 20;
+    position: relative;
+    overflow-y: 'auto';
+    max-height: '500px';
+    background-color: black;
+}
