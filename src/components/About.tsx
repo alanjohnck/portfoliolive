@@ -43,7 +43,7 @@ function About() {
                 Email:alanjohnchacko.live@gmail.com
              </p>
              <p>
-                Phone: +91 99 80 91 80 73
+                Phone: +91 9980918073
              </p>
         </div>
         
@@ -59,8 +59,8 @@ function About() {
 Model Engineering College, Kochi<br></br>
 Bachelor of Technology in Computer Science and Engineering
 <br />
-Graduation: 2026
-CGPA: 9.0
+Graduation: 2026<br />
+CGPA: 9.17
                     </p>
 
                </div>
