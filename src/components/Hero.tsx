@@ -34,11 +34,8 @@ function Hero() {
         style={{scale,color}}
         >
             <h1>
-                Hello,Welcome to my world!
+                Hey,I'm Alan John
             </h1>
-            <h5>
-                Alan John Chacko
-            </h5>
             <p>
                 I am a developer
             </p>
@@ -57,9 +54,18 @@ function Hero() {
         className="drag-object">
 
       </motion.div>
-      <div className="svg-block">
-        
-        
+      <div className="hero-connect">
+        <div className="github-cont">
+            
+        </div>
+        <div className="arrow">
+            <img>
+            </img>
+        </div>
+           
+        <div>
+
+        </div>
       </div>
       
       </motion.div>

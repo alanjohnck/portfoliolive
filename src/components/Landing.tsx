@@ -1,6 +1,7 @@
 import React from 'react'
 import { useScroll, useTransform, motion } from "framer-motion";
 import { useEffect, useRef } from "react";
+import ProjectCard from "../components/ProjectCard"
 import "./landing.css"
 function Landing() {
     const targetRef =useRef<HTMLDivElement>(null);
@@ -19,7 +20,9 @@ function Landing() {
       pos>=.7 ? "20%":"70%"
     })
   return (
-    <motion.div  style={{width,height,scale,padding}} className='landing'>Projects</motion.div>
+    <motion.div  style={{width,height,scale,padding}} className='landing'>
+         <ProjectCard />
+    </motion.div>
   )
 }
 

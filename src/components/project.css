@@ -1,0 +1,116 @@
+
+.project-container{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+#progress {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    transform: rotate(-90deg);
+  }
+  
+  circle {
+    stroke-dashoffset: 0;
+    stroke-width: 15%;
+    fill: none;
+    
+  }
+  
+  .bg {
+    stroke: white;
+    
+  }
+  
+  #progress .indicator {
+    stroke: black;
+  }
+  
+
+ul {
+    display: flex;
+    list-style: none;
+    height: 450px;
+    border:none;
+    overflow-x: scroll;
+    padding: 8% 10%;
+    flex: 0 0 400px;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  ::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background: white;
+    -webkit-border-radius: 1ex;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: white;
+    -webkit-border-radius: 1ex;
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background: #fff3;
+  }
+  
+  li {
+    flex: 400px;
+    background: white;
+    border-radius: 10px;
+    margin: 0 20px 0 0;
+    padding: 2%;
+    
+    
+  }
+  
+  li:last-of-type {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .img-project{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    overflow: hidden;
+   
+  }
+  .img-project img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+    transform: scale(3px);
+  }
+  .project-desc{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: monospace;
+    color: black;
+  }
+  
+  .github{
+    border-radius: 50%;
+    width: 50px;
+    display: flex;
+    margin-left: 10%;
+    overflow: hidden;
+    
+  }
+  
+
+.github img{
+    width: 100%;
+    object-fit:cover;
+}
+  

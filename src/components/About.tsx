@@ -18,10 +18,6 @@ function About() {
         pos>=1?"80vw":"100vw"
     )
    
-    
- useEffect(()=>
-  console.log(scrollYProgress.get()
-    ),[scrollYProgress])
   return (
 <>
 
@@ -33,15 +29,24 @@ function About() {
     
     <>
      <div className='image-section'>
-                <div className='img-container'>
-                    <img src="/alan.JPG" />
-                </div>
-                <div>
-                    
-                </div>
-                <div>
-                    
-                </div>
+        <div className='img-container-section'>
+            <div className='img-container'>
+                    <img src="/alanjohn.jpg" />
+            </div>
+           
+        </div>   
+        <div className='contact'>
+            <h1>
+                <u>Contact</u>
+            </h1>
+            <p>
+                Email:alanjohn.live@gmail.com
+             </p>
+             <p>
+                Phone: +91 974 678 123
+             </p>
+        </div>
+        
     </div>
     <div className='about-section'>
                <div className='education'>
