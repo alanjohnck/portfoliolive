@@ -33,6 +33,12 @@
     padding: 1%;
      
 }
+.drag-object {
+    border-radius: 40%;
+    background-color: white;
+    filter: blur(1.5rem);
+
+  }
 
  
 .sections{
@@ -47,32 +53,8 @@
    
 }
 
-.hero-connect{
-    display: flex;
-    gap: 1rem;
-    flex-direction: column;
-    width: 10%;
-    height: 40%;
-}
-.hero-connect .github-cont{
-   height: 80%;
-   overflow: hidden;
 
 
-}
-.github-icon {
-    width: 100%;
-    height: 70%;
-    border-radius: 60%;
-    object-fit: cover;
-}
-.arrow{
-    width: 100%;
-    height: 40%;
-    object-fit: cover;
-    
-
-}
 @keyframes fill {
     0% {
         stroke-dashoffset: 1346;
