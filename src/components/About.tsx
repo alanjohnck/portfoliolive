@@ -40,10 +40,10 @@ function About() {
                 <u>Contact</u>
             </h1>
             <p>
-                Email:alanjohn.live@gmail.com
+                Email:alanjohnchacko.live@gmail.com
              </p>
              <p>
-                Phone: +91 974 678 123
+                Phone: +91 99 80 91 80 73
              </p>
         </div>
         
