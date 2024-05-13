@@ -1,6 +1,5 @@
-import React from 'react'
 import { useScroll, useTransform, motion } from "framer-motion";
-import { useEffect, useRef } from "react";
+import {  useRef } from "react";
 import ProjectCard from "../components/ProjectCard"
 import "./landing.css"
 function Landing() {

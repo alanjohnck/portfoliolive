@@ -1,6 +1,6 @@
-import React from 'react'
+
 import { useScroll, useTransform, motion } from "framer-motion";
-import { useEffect, useRef } from "react";
+import {  useRef } from "react";
 import "./about.css"
 import stack from "../assets/stack.svg"
 import Landing from './Landing';

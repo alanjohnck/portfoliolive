@@ -1,10 +1,8 @@
 import { useScroll, useTransform, motion } from "framer-motion";
 import { useFollowPointer } from "./useFollowPointer";
-import { useEffect, useRef } from "react";
-import { useState } from "react";
+import { useRef } from "react";
 import "./hero.css"
-import Landing from "./Landing";
-import component from "../assets/Component 11.svg"
+
 import About from "./About";
 function Hero() {
     const targetRef =useRef<HTMLDivElement>(null);
