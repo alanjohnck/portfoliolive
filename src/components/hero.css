@@ -55,17 +55,11 @@
 
 
 
-@keyframes fill {
-    0% {
-        stroke-dashoffset: 1346;
-    }
-    100% {
-        stroke-dashoffset: 0;
-    }
-}
+
 
 @media (max-width:600px) {
           .sections{
             padding-top: 100%;
+            
           }
 }
